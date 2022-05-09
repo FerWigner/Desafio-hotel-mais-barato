@@ -1,2 +1,2 @@
 # Desafio-hotel-mais-barato
- Desafio para concorrer avaga de estágio.
+ Desafio para concorrer a vaga de estágio.
