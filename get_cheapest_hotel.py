@@ -1,12 +1,11 @@
 import re
-from calendar import week
 
 
 print('Desafio do hotel mais barato - Syngenta - 13/05/2022')
 print('Desafiada: Fernanda Wigner')
 print('*****************************************************')
 
-# Lista de dicionários dos três hotéis
+# Dicionários dos três hotéis
 l = {'name': 'Lakewood', 'classification': 3, 'weekPrice': 110,
      'weekendPrice': 90, 'weekPriceRew': 80, 'weekendPriceRew': 80}
 
@@ -17,7 +16,7 @@ r = {'name': 'Ridgewood', 'classification': 5, 'weekPrice': 220,
      'weekendPrice': 150, 'weekPriceRew': 100, 'weekendPriceRew': 40}
 
 
-# Método(função) que retorna o hotel mais barato se empate com maior classificação.
+# Método(função) que retorna o hotel mais barato. Não há empate, pois os valores para cada tipo de cliente dentro de cada dia são diferentes.
 def get_cheapest_hotel(x, y, z, nL, nB, nR):
 
     if z > x < y:
